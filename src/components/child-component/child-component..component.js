@@ -19,7 +19,7 @@
         ////////////////
 
         vm.$onInit = function() {
-            vm.text = `Hello from Additional`;
+            vm.text = `Hello from ChildComponent`;
         };
         vm.$onChanges = function(changesObj) { };
         vm.$onDestroy = function() { };
