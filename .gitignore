@@ -1,0 +1,5 @@
+node_modules
+dist/assets
+dist/components
+dist/js
+dist/css

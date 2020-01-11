@@ -1,0 +1,40 @@
+{
+  "name": "gulpwithangularjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "1.7.9",
+    "angular-route": "1.7.9"
+  },
+  "devDependencies": {
+    "@babel/core": "7.0.0",
+    "@babel/preset-env": "7.7.7",
+    "babel-core": "6.26.3",
+    "babel-polyfill": "6.26.0",
+    "babel-preset-env": "1.7.0",
+    "browser-sync": "2.26.7",
+    "gulp": "4.0.2",
+    "gulp-babel": "8.0.0",
+    "gulp-clean-css": "4.2.0",
+    "gulp-concat": "2.6.1",
+    "gulp-if": "3.0.0",
+    "gulp-notify": "3.2.0",
+    "gulp-sass": "4.0.2",
+    "gulp-sourcemaps": "2.6.5",
+    "gulp-uglify": "3.0.2",
+    "gulp-util": "3.0.8",
+    "through2": "3.0.1",
+    "yargs": "15.1.0"
+  },
+  "browserslist": [
+    "last 2 version",
+    "> 1%",
+    "IE 10"
+  ]
+}

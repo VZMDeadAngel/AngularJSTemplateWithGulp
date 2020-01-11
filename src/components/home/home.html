@@ -1,0 +1,12 @@
+<div ng-if="!vm.loading">
+    <h3>Messages count - {{ vm.messagesCount }}</h3>
+    <ul class="list">
+        <li ng-repeat="message in vm.messages">
+            <h3>{{ message }}</h3>
+        </li>
+    </ul>
+    <child-component></child-component>
+</div>
+<div>
+    <div ng-if="vm.loading" class="loading-message"></div>
+</div>
